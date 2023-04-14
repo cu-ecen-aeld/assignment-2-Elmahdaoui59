@@ -2,6 +2,7 @@
 
 if [ $# -eq 2 ]
 then
+        install -D /dev/null $1
 	echo $2 > $1
 	exit 0
 else
